@@ -2,7 +2,7 @@
 # @Time    : 2021/1/10 22:47
 # @Author  : Yu
 # @Site    : 
-# @File    : LoginDemo.py
+# @File    : Day01_LoginDemo.py
 # @Software: PyCharm
 import requests
 import re
@@ -18,4 +18,4 @@ password = '123456'
 
 login_api_response = login_session.post(login_url_str, {"username": username, "password": password,
                                                         "csrfmiddlewaretoken": csrf_token_str[0]})
-print(login_api_response.url)
+print(login_api_response.text)
