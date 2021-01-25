@@ -6,14 +6,11 @@
 # @Software: PyCharm
 
 import requests
-import pytest
 
 
 def test_get_goods_info():
     """
     根据商品id查询商品信息
-    :param goodsId:
-    :return:
     """
     goodsId = 1
     url = "http://49.235.92.12:7005/api/v1/goods/{}".format(goodsId)

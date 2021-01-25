@@ -1,0 +1,13 @@
+param:
+  - - goodscode: ''
+      goodsname: 'python从入门到入坟'
+    - code: 2000
+      msg: 缺少必填项goodscode
+  - - goodscode: sp_199922
+      goodsname: 'python从入门到入坟'
+    - code: 0
+      msg: success!
+  - - goodscode: sp_test_yoyo
+      goodsname: 'python从入门到入坟'
+    - code: 4000
+      msg: goodscode不能重复添加
