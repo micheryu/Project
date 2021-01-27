@@ -34,7 +34,7 @@ class DbConnect:
         if self.conn:
             self.cursor.execute(sql_str)
             results = self.cursor.fetchall()
-            yield results
+            return results
 
     def execute(self, sql_str):
         if self.conn:
